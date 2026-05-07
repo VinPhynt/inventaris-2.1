@@ -36,17 +36,17 @@ const Login = () => {
                 >
                     <CardHeader>
                         <CardTitle>
-                            <center>
+                            <Center>
                                 <Image src="{logo}" width="100px"></Image>
-                            </center>
+                            </Center>
                             <Text textAlign="center"> My Inventory</Text>
                         </CardTitle>
                         <CardBody gapY="10px">
-                            <input placeholder="Username" type="text" />
-                            <input placeholder="password" type="password" />
-                            <button backgroundColor="green" color="red" borderRadius="10px">
+                            <Input placeholder="Username" type="text" />
+                            <Input placeholder="password" type="password" />
+                            <Button backgroundColor="green" color="red" borderRadius="10px">
                                 <Text>Login</Text>
-                            </button>
+                            </Button>
                         </CardBody>
                     </CardHeader>
                 </CardRoot>
